@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins,wght@1,600&display=swap');
+body{
+    background-image: url('../images/bg.png');
+    background-repeat: repeat-y;
+    font-family: 'Poppins', sans-serif;
+}
+@media (max-width: 991px) {
+    .navbar-scroll {
+      background-color: black;
+    }
+       
+    .navbar-scroll .navbar-brand,
+    .navbar-scroll .nav-link,
+    .navbar-scroll .fa-bars {
+      color: #4f4f4f !important;
+    }         
+  }
+.navbar-brand {
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.navbar-scroll .navbar-brand,
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+    color: #fff;
+}
+  
+.navbar-scroll {
+    box-shadow: none;
+}
+  
+.navbar-scrolled {
+    box-shadow: 0 10px 20px 0 black;
+}
+  
+.navbar-scrolled .navbar-brand,
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars {
+    color: #4f4f4f;
+}
+  
+.navbar-scrolled {
+    background-color: black;
+}
+.text{
+    font-family: 'Poppins', sans-serif;
+}
+.green-text{
+    color: #68fe98;
+}
+.header{
+    height: 600px;
+}
+.white{
+    color:white;
+}
+.off-white{
+    color:#fefef1;
+}
+.token-card{
+    background-color: #24272c;
+    border-radius: 10px;
+}
