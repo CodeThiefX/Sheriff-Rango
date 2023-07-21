@@ -4,6 +4,16 @@ body{
     background-repeat: repeat-y;
     font-family: 'Poppins', sans-serif;
 }
+@media (max-width: 600px){
+    .first-home{
+        align-items: center;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .moon{
+        display:none;
+    }
+}
 @media (max-width: 991px) {
     .navbar-scroll {
       background-color: black;
